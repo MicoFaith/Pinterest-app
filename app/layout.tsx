@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Pinterest Clone",
   description: "A Pinterest clone built with Next.js",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -26,6 +25,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-import './globals.css'
