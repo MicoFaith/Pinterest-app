@@ -26,7 +26,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="flex items-center justify-between px-4 py-3 bg-white z-10 relative">
+    <nav className="flex items-center justify-between px-4 py-3 bg-white z-20 relative">
       <div className="flex items-center">
         <Link href="/" className="flex items-center mr-6">
           <svg className="h-8 w-8 text-[#e60023]" viewBox="0 0 24 24" fill="currentColor">
