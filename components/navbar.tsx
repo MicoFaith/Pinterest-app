@@ -46,9 +46,11 @@ export default function Navbar() {
         <Button variant="ghost" className="font-semibold">
           Business
         </Button>
-        <Button variant="ghost" className="font-semibold">
-          Blog
-        </Button>
+        <Link href="/blog" className="font-semibold">
+          <Button variant="ghost" className="font-semibold">
+            Blog
+          </Button>
+        </Link>
         <Button
           className="bg-[#e60023] hover:bg-[#ad081b] text-white rounded-full font-semibold"
           onClick={handleLoginClick}
