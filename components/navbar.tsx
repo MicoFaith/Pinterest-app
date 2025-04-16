@@ -34,19 +34,25 @@ export default function Navbar() {
           </svg>
           <span className="ml-1 text-[#e60023] font-bold text-xl">Pinterest</span>
         </Link>
-        <Button variant="ghost" className="font-semibold">
-          Explore
-        </Button>
+        <Link href="/explore">
+          <Button variant="ghost" className="font-semibold">
+            Explore
+          </Button>
+        </Link>
       </div>
 
       <div className="flex items-center space-x-2">
-        <Button variant="ghost" className="font-semibold">
-          About
-        </Button>
-        <Button variant="ghost" className="font-semibold">
-          Business
-        </Button>
-        <Link href="/blog" className="font-semibold">
+        <Link href="/about">
+          <Button variant="ghost" className="font-semibold">
+            About
+          </Button>
+        </Link>
+        <Link href="/business">
+          <Button variant="ghost" className="font-semibold">
+            Business
+          </Button>
+        </Link>
+        <Link href="/blog">
           <Button variant="ghost" className="font-semibold">
             Blog
           </Button>
